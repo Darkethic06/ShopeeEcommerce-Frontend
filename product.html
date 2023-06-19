@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shopee</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <!-- --------- Start Header--------------- -->
+  <header id="header">
+    <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+      <p class="font-rale font-size-12 text-black-50 m-0">280, BJ Block, Saltlake Sector 2</p>
+      <div class="font-rale fot-size-14">
+        <a href="#" class="px-3 border-right border-left text-dark">Login</a>
+        <a href="#" class="px-3 border-right border-left text-dark">Wishlist(0)</a>
+
+      </div>
+    </div>
+    <!-- ------------Primary Navigation--------- -->
+    <nav class="navbar navbar-expand-lg color-secondary-bg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Shopee</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-auto font-rale">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">On Sale</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Category<i class="bx bx-chevron-down"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products<i class="bx bx-chevron-down"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Coming Soon</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Blog</a>
+            </li>
+          </ul>
+          <form action="#" class="font-size-14 font-rale">
+            <a href="#" class="py-2 rounded-pill color-primary-bg">
+              <span class="font-size-16 px-2 text-white"><i class='bx bx-cart-alt'></i></span>
+              <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+            </a>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- --------- End Header--------------- -->
+
+
+  <!-- --------- Start Main Site--------------- -->
+
+  <main id="main-site">
+
+    <!-- Product  Start -->
+
+    <section id="product">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 text-center">
+            <img src="assets/product1.jpg" alt="" class="img-fluid ">
+            <div class="row pt-4 font-size-16 font-baloo">
+              <div class="col">
+                <button type="button" class="btn btn-danger form-control">Buy Now</button>
+              </div>
+              <div class="col">
+                <button type="button" class="btn btn-warning form-control">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 py-5">
+            <h5 class="font-size-20 font-rale">Leather Bag</h5>
+            <small>by Picco Massimo</small>
+            <div class="d-flex">
+              <div class=" text-warning font-size-12">
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bx-star'></i></span>
+              </div>
+              <a href="#" class="px-2 font-rale font-size-14">20534 Ratings | 1000+ answered questions</a>
+            </div>
+            <hr class="m-0">
+            <!-- product price -->
+
+            <table class="my-3">
+              <tr class="font-rale font-size-14">
+                <td>M.R.P:</td>
+                <td><strike>&nbsp;&nbsp;$100.99</strike></td>
+              </tr>
+              <tr class="font-rale font-size-14">
+                <td>Deal Price:</td>
+                <td class="text-danger font-size-20">&nbsp;&nbsp;$<span>78.99</span><small
+                    class="text-dark font-size-12">&nbsp;&nbsp;Inclusive of all taxes</small></td>
+              </tr>
+              <tr class="font-rale font-size-14">
+                <td>You Save:</td>
+                <td>&nbsp;&nbsp;<span class="font-size-16 text-danger">$22.00</span></td>
+              </tr>
+            </table>
+
+            <!-- product price -->
+
+
+
+            <!-- policy -->
+
+
+            <div id="policy">
+
+              <div class="d-flex">
+                <div class="return text-center mx-3">
+                  <div class="font-size-20 my-2 color-second">
+                    <i class='bx bx-repost border p-3 rounded-pill'></i>
+                  </div>
+                  <a href="" class="font-rale font-size-12"> 10 Days <br> Replacement</a>
+                </div>
+                <div class="return text-center mx-3">
+                  <div class="font-size-20 my-2 color-second">
+                    <i class='bx bxs-truck border p-3 rounded-pill'></i>
+                  </div>
+                  <a href="" class="font-rale font-size-12"> Delivery Within <br> 7 Days</a>
+                </div>
+                <div class="return text-center mx-3">
+                  <div class="font-size-20 my-2 color-second">
+                    <i class='bx bx-check-double border p-3 rounded-pill'></i>
+                  </div>
+                  <a href="" class="font-rale font-size-12"> 1 Year <br>Warranty</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- -----------policy end -->
+
+            <hr>
+            <!-- order Details -->
+
+            <div id="order-details" class="font-rale d-flex flex-column text-dark">
+              <small>Delivery by:Mar 29 - Apr 1</small>
+              <small>Sold by <a href="#">Picco Massimo </a>(4.5 out of 5 | 18198 Ratings)</small>
+              <small><i class='bx bxs-map'></i> Deliver to Arijit - 700049</small>
+            </div>
+            <!-- -----------Color and Quantity---- -->
+            <div class="row">
+              <div class="col-lg-6 col-md-6">
+                <div class="color my-3">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="font-baloo">Color:</h6>
+                    <div class="p-2 color-yellow-bg rounded-circle">
+                      <buttton class="btn font-size-14"></buttton>
+                    </div>
+                    <div class="p-2 color-primary-bg rounded-circle">
+                      <buttton class="btn font-size-14"></buttton>
+                    </div>
+                    <div class="p-2 color-secondary-bg rounded-circle">
+                      <buttton class="btn font-size-14"></buttton>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="qty d-flex">
+                  <h6 class="font-baloo">Qty:</h6>
+                  <div class="px-4 d-flex font-rale">
+                    <button class="qty-up border bg-light" data-id="pro3"><i class='bx bxs-chevron-up'></i></button>
+                    <input type="text" class="qty_input border px-2 w-50 bg-light" disabled value="1" placeholder="1" data-id="pro3">
+                    <button class="qty-down border bg-light" data-id="pro3"><i class='bx bxs-chevron-down'></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- specification start -->
+            <div class="size my-3">
+              <h6 class="font-baloo">Size:</h6>
+              <div class="d-flex justify-content-between w-75">
+                <div class="font-rubik border p-2">
+                  <button class="btn p-0 font-size-14">Black</button>
+                </div>
+                <div class="font-rubik border p-2">
+                  <button class="btn p-0 font-size-14">Brown</button>
+                </div>
+                <div class="font-rubik border p-2">
+                  <button class="btn p-0 font-size-14">Tan</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- specification end-->
+
+
+            <!-- order Details end-->
+
+
+
+          </div>
+
+          <div class="col-lg-12 col-md-12">
+            <h6 class="font-rubik">Product Description</h6>
+            <hr>  
+            <p class="font-rale font-size-14">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+              exercitationem adipisci odio minima ratione in molestiae labore soluta voluptate aperiam maxime alias
+              accusamus?</p>
+            <p class="font-rale font-size-14">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+              exercitationem adipisci odio minima ratione in molestiae labore soluta voluptate aperiam maxime alias
+              accusamus?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Product End -->
+
+
+
+
+
+
+    <!-- --------- Start Top Sale--------------- -->
+
+
+    <section id="top-sale">
+      <div class="container py-5">
+        <h4 class="font-rubik font-size-20">Top Sale</h4>
+        <hr>
+        <div class="owl-carousel owl-theme">
+          <div class="item py-2">
+            <div class="product font-rale">
+              <a href=""><img src="assets/product1.jpg" alt="" srcset="" class="img-fluid"></a>
+              <div class="text-center">
+                <h6>Leather Messenger Bag 14 inch</h6>
+                <div class="price py-2">
+                  <span class="text-decoration-line-through">₹10,999</span>
+                  <span>₹3,999</span>
+                </div>
+                <button class="btn btn-dark font-size-12">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="item py-2">
+            <div class="product font-rale">
+              <a href=""><img src="assets/product2.jpg" alt="" srcset="" class="img-fluid"></a>
+              <div class="text-center">
+                <h6>Leather Messenger Bag 14 inch</h6>
+                <div class="price py-2">
+                  <span class="text-decoration-line-through">₹10,999</span>
+                  <span>₹3,999</span>
+                </div>
+                <button class="btn btn-dark font-size-12">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="item py-2">
+            <div class="product font-rale">
+              <a href=""><img src="assets/product3.jpg" alt="" srcset="" class="img-fluid"></a>
+              <div class="text-center">
+                <h6>Leather Messenger Bag 14 inch</h6>
+                <div class="price py-2">
+                  <span class="text-decoration-line-through">₹10,999</span>
+                  <span>₹3,999</span>
+                </div>
+                <button class="btn btn-dark font-size-12">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="item py-2">
+            <div class="product font-rale">
+              <a href=""><img src="assets/product4.jpg" alt="" srcset="" class="img-fluid"></a>
+              <div class="text-center">
+                <h6>Leather Messenger Bag 14 inch</h6>
+                <div class="price py-2">
+                  <span class="text-decoration-line-through">₹10,999</span>
+                  <span>₹3,999</span>
+                </div>
+                <button class="btn btn-dark font-size-12">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="item py-2">
+            <div class="product font-rale">
+              <a href=""><img src="assets/product5.jpg" alt="" srcset="" class="img-fluid"></a>
+              <div class="text-center">
+                <h6>Leather Messenger Bag 14 inch</h6>
+                <div class="price py-2">
+                  <span class="text-decoration-line-through">₹10,999</span>
+                  <span>₹3,999</span>
+                </div>
+                <button class="btn btn-dark font-size-12">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="item py-2">
+            <div class="product font-rale">
+              <a href=""><img src="assets/product6.jpg" alt="" srcset="" class="img-fluid"></a>
+              <div class="text-center">
+                <h6>Leather Messenger Bag 14 inch</h6>
+                <div class="price py-2">
+                  <span class="text-decoration-line-through">₹10,999</span>
+                  <span>₹3,999</span>
+                </div>
+                <button class="btn btn-dark font-size-12">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="item py-2">
+            <div class="product font-rale">
+              <a href=""><img src="assets/product7.jpg" alt="" srcset="" class="img-fluid"></a>
+              <div class="text-center">
+                <h6>Leather Messenger Bag 14 inch</h6>
+                <div class="price py-2">
+                  <span class="text-decoration-line-through">₹10,999</span>
+                  <span>₹3,999</span>
+                </div>
+                <button class="btn btn-dark font-size-12">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </section>
+    <!-- --------- End Top Sale--------------- -->
+
+  </main>
+
+
+
+  <!-- --------- End Main Site--------------- -->
+
+  <!-- --------- Start Footer--------------- -->
+
+  <footer id="footer" class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-12">
+          <h4 class="font-rubik font-size-20">Mobile Shopee</h4>
+          <p class="font-size-14 font-rale text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+            quia ipsam molestiae. Nostrum modi esse totam debitis voluptatibus magnam blanditiis.</p>
+        </div>
+
+        <!-- ---------------------------------- -->
+        <div class="col-lg-4 col-12">
+          <h4 class="font-rubik font-size-20">Newslatter</h4>
+          <form action="" class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Email *" required>
+            </div>
+            <div class="col">
+              <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+            </div>
+          </form>
+        </div>
+        <!-- ----------------------------------------------------- -->
+
+        <div class="col-lg-2 col-12">
+          <h4 class="font-rubik font-size-20">
+            Information
+          </h4>
+          <div class="d-flex flex-column flex-wrap">
+            <a href="" class="font-rale font-size-14 text-white pb-1">About Us</a>
+            <a href="" class="font-rale font-size-14 text-white pb-1">Delivery Information</a>
+            <a href="" class="font-rale font-size-14 text-white pb-1">Privacy Policy</a>
+            <a href="" class="font-rale font-size-14 text-white pb-1">Terms & Conditions</a>
+          </div>
+        </div>
+        <!-- ----------------------------------------------------- -->
+
+        <div class="col-lg-2 col-12">
+          <h4 class="font-rubik font-size-20">
+            Accounts
+          </h4>
+          <div class="d-flex flex-column flex-wrap">
+            <a href="" class="font-rale font-size-14 text-white pb-1">My Account</a>
+            <a href="" class="font-rale font-size-14 text-white pb-1">Order History</a>
+            <a href="" class="font-rale font-size-14 text-white pb-1">Wishlist</a>
+            <a href="" class="font-rale font-size-14 text-white pb-1">Newsletter</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="copyright bg-dark text-center text-white py-2">
+    <p class="font-rale font-size-14">&copy;Copyrights 2020. Design By <a href="" class="color-second">Arijit Paul</a>
+    </p>
+  </div>
+
+
+  <!-- --------- End Footer--------------- -->
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+    integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
